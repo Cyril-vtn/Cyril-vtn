@@ -1,5 +1,5 @@
 # 💫 About Me:
-Developpeur Front-end React de 25 ans !<br>je travaille actuellement sur une application d'apprentissage de la langue Thaï <br>Sawatdee Learn Thaï !<br><br>mes stack sont :<br> - Javascript<br> - React<br><br><br>j'apprends actuellement :<br> - NodeJS<br> - Typescript<br><br>
+Developpeur Front-end React de 25 ans !<br>je travaille actuellement sur une application d'apprentissage de la langue Thaï <br>Sawatdee Learn Thaï !<br><br><br>j'apprends actuellement :<br> - NodeJS<br> - Typescript<br><br>
 
 
 ## 🌐 Socials:
