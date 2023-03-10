@@ -3,7 +3,7 @@ Bonjour !
 Je m'appelle Cyril Votion, développeur Front-end React de 25 ans !<br>
 Il y a un an, et ce après 4 ans en tant que Vendeur magasin, j'ai entamé une reconversion afin de devenir développeur.<br><br>- pourquoi donc ? me diriez-vous.<br><br>L'envie de changement et également d'un nouveau challenge quotidien ! Tout simplement !<br>J'adore apprendre de nouvelle chose et ce métier m'apporte exactement ce que je voulais, un apprentissage quotidien !<br><br>Vous pouvez retrouver tous mes projets sur cette page Github, mais aussi sur mon [Portfolio](https://cyrilvotion.com/)<br>N'hésitez pas à me contacter sur Linkedin ou à m'envoyer un mail à cette adresse : [votion.cyril@gmail.com](mailto:votion.cyril@gmail.com?subject=Mon%sujet)
 
-## En cours d'apprentissage :
+## 📖 En cours d'apprentissage :
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## 🌐 Social :
