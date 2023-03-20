@@ -28,13 +28,15 @@ Actuellement à la recherche d'un job !!!!
 
 # 📊 Stats GitHub :
 
-  
-<img width="auto" align="right" src="https://github-readme-stats.vercel.app/api?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/>
-<img width="auto" align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Cyril-vtn&theme=dark&hide_border=false"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
+<div width="100%">
+<img width="30%" src="https://github-readme-stats.vercel.app/api?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/>
+<img width="30%" src="https://github-readme-streak-stats.herokuapp.com/?user=Cyril-vtn&theme=dark&hide_border=false"/>
+<img width="30%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
+</div>
+
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Cyril-vtn&icon=2&color=1)](https://visitcount.itsvg.in)
