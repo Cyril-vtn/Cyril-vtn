@@ -1,46 +1,67 @@
-# 👋 Bienvenue / Welcome / สวัสดีครับ :
-Bonjour !
-Je m'appelle Cyril Votion, développeur Front-end React de 25 ans !<br>
-Il y a un an, et ce après 4 ans en tant que Vendeur magasin, j'ai entamé une reconversion afin de devenir développeur.<br><br>- pourquoi donc ? me diriez-vous.<br><br>L'envie de changement et également d'un nouveau challenge quotidien ! Tout simplement !<br>J'adore apprendre de nouvelle chose et ce métier m'apporte exactement ce que je voulais, un apprentissage quotidien !<br><br>Vous pouvez retrouver tous mes projets sur cette page Github, mais aussi sur mon [Portfolio](https://cyrilvotion.com/)<br>N'hésitez pas à me contacter sur Linkedin ou à m'envoyer un mail à cette adresse : [votion.cyril@gmail.com](mailto:votion.cyril@gmail.com?subject=Mon%sujet)
+<h3 align="center">
+Hi there, I'm <a href="https://cyrilvotion.com" target="_blank" rel="noreferrer">Cyril</a> :wave:
+  
+  </br>
+  </br>
+  <div width="100%">
+  <img src="https://raw.githubusercontent.com/Cyril-vtn/Cyril-vtn/main/resources/banner.png">
+    
+  </div>
+</h3>
+<h2 align="center">
+I'm a 26 years old Full-stack Web Developer 💻, Gamer 🎮, and Coffee enthusiast ☕!
+</h2> 
 
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/cyril-vtn/count.svg" />
+</p>
 
-<hr>
+### 🤝 Connect with me:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cyrilvotion)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/cyrilcodes/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cyriljustcode@gmail.com)
+- 💬 If you have any question/feedback, please do not hesitate to reach out to me!
 
-Hello!
-My name is Cyril Votion, 25-year-old Front-end React developer!<br>
-A year ago, and after 4 years as a store salesman, I started a conversion to become a developer.<br><br>- Why?<br><br>The desire for change and also a new daily challenge! Quite simply! <br>I love learning new things and this job gives me exactly what I wanted, a daily learning experience!
-<br>
-<br>
-You can find all my projects on this Github page, but also on my [Portfolio](https://cyrilvotion.com/)
-<br>
-Feel free to contact me on Linkedin or send me an email at [votion.cyril@gmail.com](mailto:votion.cyril@gmail.com?subject=Mon%sujet)<br>
+## 🌱 I'm currently learning
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
+## 💼 Technical Skills
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## 📖 En cours d'apprentissage / Currently in training :
-[![My Skills](https://skillicons.dev/icons?i=nodejs,typescript)](https://skillicons.dev)
+</br>
 
-## 🌐 Social :
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/cyrilvotion) 
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 
-# ⚙️ Mes Compétences / My Skills :
+</br>
 
-### Développement / development
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,vite,mui,react,pug,sass,tailwind,next,nodejs,express)](https://skillicons.dev)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-
-### Bases de données / Databases
-[![My Skills](https://skillicons.dev/icons?i=firebase,mongodb,mysql)](https://skillicons.dev)
-
-### Services
-<img src="https://skillicons.dev/icons?i=github,netlify,vercel&theme=dark" />
-
-### Design
-<img src="https://skillicons.dev/icons?i=figma,xd,photoshop&theme=dark" />
-
-# 📊 Stats GitHub :
+## 📈 GitHub Stats 
 
 <div width="100%">
-<img width="30%" src="https://github-readme-stats.vercel.app/api?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/>
+<img width="30%" src="https://github-readme-stats.vercel.app/api?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/> </div></br>
 <img width="30%" src="https://github-readme-streak-stats.herokuapp.com/?user=Cyril-vtn&theme=dark&hide_border=false"/>
 <img width="30%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cyril-vtn&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
 </div>
@@ -49,7 +70,5 @@ Feel free to contact me on Linkedin or send me an email at [votion.cyril@gmail.c
 ### ✍️ Random Dev Quote
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 
----
-[![](https://visitcount.itsvg.in/api?id=Cyril-vtn&icon=2&color=1)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
