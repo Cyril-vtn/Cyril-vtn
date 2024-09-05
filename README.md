@@ -23,11 +23,10 @@ I'm a 26 years old Full-stack Web Developer 💻, Gamer 🎮, and Coffee enthusi
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cyriljustcode@gmail.com)
 - 💬 If you have any question/feedback, please do not hesitate to reach out to me!
 
-## 🌱 I'm currently learning
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-
 ## 💼 Technical Skills
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/Redux-%23323330.svg?style=for-the-badge&logo=redux&logoColor=white)
+![NextJS](https://img.shields.io/badge/nextjs-%23323330.svg?style=for-the-badge&logo=nextjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
@@ -53,6 +52,7 @@ I'm a 26 years old Full-stack Web Developer 💻, Gamer 🎮, and Coffee enthusi
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
+![PNPM](https://img.shields.io/badge/pnpm-%23F24E1E.svg?style=for-the-badge&logo=pnpm&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -72,4 +72,8 @@ I'm a 26 years old Full-stack Web Developer 💻, Gamer 🎮, and Coffee enthusi
 
 
 ### ✍️ Random Dev Quote
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+<div width="100%">
+  <div align="center">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+     </div>
+</div>
