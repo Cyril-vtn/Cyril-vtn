@@ -24,7 +24,7 @@ focus: Fullstack web development
 languages: French (native), English (fluent), Mandarin (learning)
 ```
 
-I'm a self-taught fullstack engineer, battle-tested through professional experience building SaaS products used by major organizations (CNES, Disney, Societe Generale, TV5 Monde and many mone). I specialize in crafting performant, scalable applications with modern tools and clean architecture.
+I'm a self-taught fullstack engineer, battle-tested through professional experience building SaaS products used by major organizations (CNES, Societe Generale, TV5 Monde). I specialize in crafting performant, scalable applications with modern tools and clean architecture.
 
 ---
 
@@ -110,13 +110,13 @@ I'm a self-taught fullstack engineer, battle-tested through professional experie
 </td>
 <td width="50%">
 
-#### :books: Mandarin Lab
-**Learning Platform** — Mandarin for French speakers
-- 11,000+ word HSK dictionary
-- Grammar guides & cultural notes
-- Built to document my own learning journey
+#### :globe_with_meridians: Freelance Work
+**Web Applications & SaaS** — Built for clients
+- Custom dashboards & admin panels
+- API design & third-party integrations
+- Performance optimization & clean architecture
 
-`React` `TypeScript` `Tailwind CSS`
+`React` `NestJS` `PostgreSQL` `Docker`
 
 </td>
 </tr>
