@@ -2,7 +2,7 @@
 
 # Cyril Votion
 
-**Fullstack Engineer & Freelance Developer**
+**Fullstack Engineer**
 
 I build fast, polished web applications with clean architecture — from idea to production.
 
