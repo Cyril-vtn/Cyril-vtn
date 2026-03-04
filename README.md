@@ -136,7 +136,7 @@ I'm a self-taught fullstack engineer, battle-tested through professional experie
 #### :bulb: Your project?
 **Let's build something together.**
 
-I'm available for freelance projects — web apps, SaaS platforms, landing pages, and more.
+I'm available projects — web apps, SaaS platforms, landing pages, and more.
 
 [Get in touch &rarr;](mailto:votion.cyril@gmail.com)
 
