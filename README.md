@@ -4,7 +4,7 @@
 
 **Fullstack Engineer**
 
-I build fast, polished web applications with clean architecture — from idea to production.
+I build production web applications end to end, from database schema to the last pixel.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-1A1A1A?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cyrilvotion.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cyrilvotion/)
@@ -14,77 +14,73 @@ I build fast, polished web applications with clean architecture — from idea to
 
 ---
 
-### About me
+### About
 
 ```yaml
-location: France
-status: Available for freelance projects
+location:   France
+role:       Fullstack Developer @ Smartevo
+status:     Open to opportunities
 experience: 3+ years
-focus: Fullstack web development
-languages: French (native), English (fluent), Mandarin (learning)
+languages:  French (native), English (fluent), Mandarin (learning)
 ```
 
-I'm a self-taught fullstack engineer, battle-tested through professional experience building SaaS products used by major organizations (CNES, Societe Generale, TV5 Monde). I specialize in crafting performant, scalable applications with modern tools and clean architecture.
+I turn complex requirements into products that stay fast and readable long after launch.
+
+Self-taught first, then sharpened on a platform with real users and real constraints —
+a SaaS used by CNES, Société Générale and TV5 Monde. I care about the parts nobody
+sees: query plans, deploy pipelines, the shape of a component API. Good architecture is
+what makes the visible parts feel effortless.
 
 ---
 
-### Services
+### What I do
 
-| | Service | What you get |
-|---|---------|-------------|
-| :art: | **Frontend Development** | React, Next.js, Vue.js — performant, responsive interfaces with smooth animations |
-| :gear: | **Backend Development** | Robust APIs with NestJS, Node.js, PostgreSQL and Prisma |
-| :cloud: | **DevOps & Infrastructure** | Docker, Kubernetes, Terraform, automated CI/CD pipelines |
-| :sparkles: | **UI/UX Integration** | Pixel-perfect implementation, Framer Motion animations, responsive design |
+| Discipline | What that means |
+|---|---|
+| **Frontend engineering** | React and TypeScript at the core. Interfaces that stay responsive as the data grows, built with Next.js or Vite. |
+| **Backend engineering** | APIs in NestJS backed by PostgreSQL and Prisma. Clear boundaries, predictable queries, migrations you can roll back. |
+| **Infrastructure & CI/CD** | Docker and Kubernetes, infrastructure as code with Terraform, automated pipelines on GitHub and GitLab. |
+| **Interface & motion** | Turning a design file into the real thing, down to the spacing, the states and the way it moves. |
 
 ---
 
-### Tech Stack
+### Stack
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td valign="top" width="33%">
 
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 </td>
-<td align="center" width="25%">
+<td valign="top" width="33%">
 
-**Backend**
+**Backend & data**
 
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![REST](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 </td>
-<td align="center" width="25%">
+<td valign="top" width="33%">
 
-**DevOps**
+**Infra & tooling**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-
-</td>
-<td align="center" width="25%">
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Notion](https://img.shields.io/badge/Notion-000?style=flat-square&logo=notion&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 
 </td>
 </tr>
@@ -92,51 +88,72 @@ I'm a self-taught fullstack engineer, battle-tested through professional experie
 
 ---
 
-### Featured Projects
+### Experience
+
+**Smartevo** — SaaS platform centralising project management for creative and
+communication teams. Trusted by **CNES**, **Société Générale** and **TV5 Monde**.
+
+| Period | Role | Focus |
+|---|---|---|
+| Mar 2026 — present | **Fullstack Developer** | Hired full time at the end of the work-study contract. Feature ownership from design to production, backend performance and scalability, Kubernetes infrastructure and CI/CD. |
+| Sep 2023 — Feb 2026 | **Fullstack Developer**, work-study | Shipped features across the whole product alongside the team, hardened what was already live, optimised queries and automated the deployment pipelines. |
+
+---
+
+### Selected work
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### :rocket: Tiko
-**SaaS Platform** — Project management for animation teams
-- Scene tracking & stage pipelines
-- Team scheduling & real-time monitoring
-- Used by professional animation studios
+#### Tiko
+**SaaS platform** — Project management for animation studios
 
-`React` `NestJS` `PostgreSQL` `Prisma` `Kubernetes`
+- Scene tracking and stage pipelines
+- Team scheduling and live progress monitoring
+- Billing and transactional email wired in
+
+`React` `NestJS` `PostgreSQL` `Prisma` `Docker` `CI/CD` `Stripe` `Resend`
+
+[View project &rarr;](https://dreamy-kashata-668bd3.netlify.app/)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### :globe_with_meridians: Freelance Work
-**Web Applications & SaaS** — Built for clients
-- Custom dashboards & admin panels
-- API design & third-party integrations
-- Performance optimization & clean architecture
+#### Mandarin Lab
+**Learning platform** — Mandarin for French speakers
 
-`React` `NestJS` `PostgreSQL` `Docker`
+- HSK dictionary of 11,000+ words
+- Grammar guides and cultural notes
+- A record of my own study, opened up
+
+`React` `TypeScript` `Tailwind CSS`
+
+[View project &rarr;](https://gentle-narwhal-e01a72.netlify.app/)
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### :briefcase: Portfolio
-**Personal Website** — [cyrilvotion.com](https://cyrilvotion.com)
-- Scroll-linked animations & parallax effects
-- Terminal-style preloader
-- i18n support (FR / EN / ZH)
+#### Portfolio
+**Personal site** — [cyrilvotion.com](https://cyrilvotion.com)
+
+- Scroll-linked motion and a terminal boot sequence
+- Dual theme on semantic tokens, no flash on load
+- Full `prefers-reduced-motion` support, i18n in FR / EN / ZH
 
 `React 19` `Vite 7` `Framer Motion` `Tailwind CSS 4`
 
-</td>
-<td width="50%">
+[View project &rarr;](https://cyrilvotion.com)
 
-#### :bulb: Your project?
+</td>
+<td width="50%" valign="top">
+
+#### Your project?
 **Let's build something together.**
 
-I'm available projects — web apps, SaaS platforms, landing pages, and more.
+Web apps, SaaS platforms, APIs — happy to talk through what you have in mind.
 
 [Get in touch &rarr;](mailto:votion.cyril@gmail.com)
 
@@ -149,16 +166,16 @@ I'm available projects — web apps, SaaS platforms, landing pages, and more.
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Cyril-vtn/Cyril-vtn/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Cyril-vtn/Cyril-vtn/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution grid snake animation" src="https://github.com/Cyril-vtn/Cyril-vtn/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyril-vtn/Cyril-vtn/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyril-vtn/Cyril-vtn/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/Cyril-vtn/Cyril-vtn/output/github-contribution-grid-snake.svg" />
 </picture>
 
 ---
 
 <div align="center">
 
-**Open to freelance opportunities** — Let's discuss your project.
+**Open to opportunities** — let's discuss your project.
 
 [![Email](https://img.shields.io/badge/votion.cyril@gmail.com-1A1A1A?style=flat-square&logo=gmail&logoColor=white)](mailto:votion.cyril@gmail.com)
 
