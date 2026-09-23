@@ -1,0 +1,114 @@
+{
+  "license": "src/data/vocab/*.json: CC BY-SA 4.0 (adapted from CC-CEDICT, CC BY-SA 4.0, and CFDICT, CC BY-SA 3.0 — BY-SA 3.0 §4(b) allows adaptations under a later version). src/data/chars/hsk-chars.json: MIT (Pleco Inc.). See DATA_LICENSES.md.",
+  "sources": [
+    {
+      "name": "HSK 3.0 vocabulary list (ivankra/hsk30) — derived from the official 国际中文教育中文水平等级标准 (GF0025-2021) word list",
+      "url": "https://github.com/ivankra/hsk30/tree/4ff9e3915ce87baaecd7ebe263085573a4ea3192",
+      "license": "MIT (© 2023 Ivan Krasilnikov, © 2021 Shawky, © 2021 Pleco Inc.)",
+      "use": "word list, level assignment, pinyin, traditional forms, parts of speech, CC-CEDICT keys"
+    },
+    {
+      "name": "HSK 3.0 character list (elkmovie/hsk30, OCR by Pleco)",
+      "url": "https://github.com/elkmovie/hsk30/tree/7f3d4fdcfcb6e826001df062747c943d1fa8160e",
+      "license": "MIT (© 2021 Pleco Inc.)",
+      "use": "official character list per level (cross-checked with ivankra/hsk30 hsk30-chars.csv)"
+    },
+    {
+      "name": "CC-CEDICT (MDBG snapshot 2025-09-12, SHA-256 b8c062da…e1e4, mirrored in licryle/CFDICT-Next)",
+      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+      "license": "CC BY-SA 4.0",
+      "use": "English glosses (shortened)"
+    },
+    {
+      "name": "CFDICT — dictionnaire chinois-français libre, by David Houstin / Chine Informations (version 14/12/2024, mirrored in licryle/CFDICT-Next)",
+      "url": "https://chine.in/mandarin/dictionnaire/CFDICT/",
+      "license": "CC BY-SA 3.0",
+      "use": "French glosses (shortened)"
+    }
+  ],
+  "manualOverrides": 117,
+  "counts": {
+    "1": 509,
+    "2": 775,
+    "3": 973,
+    "4": 1000,
+    "5": 1072,
+    "6": 1141,
+    "7": 5637
+  },
+  "officialCounts": {
+    "1": 500,
+    "2": 772,
+    "3": 973,
+    "4": 1000,
+    "5": 1071,
+    "6": 1140,
+    "7": 5636
+  },
+  "officialReference": {
+    "1": 500,
+    "2": 772,
+    "3": 973,
+    "4": 1000,
+    "5": 1071,
+    "6": 1140,
+    "7": 5636
+  },
+  "variantExtras": {
+    "1": [
+      "爸 (variant of 爸爸)",
+      "弟 (variant of 弟弟)",
+      "哥 (variant of 哥哥)",
+      "姐 (variant of 姐姐)",
+      "〇 (variant of 零)",
+      "妈 (variant of 妈妈)",
+      "妹 (variant of 妹妹)",
+      "有时 (variant of 有时候)",
+      "有一些 (variant of 有些)"
+    ],
+    "2": [
+      "那时 (variant of 那时候)",
+      "有一点儿 (variant of 有点儿)",
+      "这时 (variant of 这时候)"
+    ],
+    "3": [],
+    "4": [],
+    "5": [
+      "差一点儿 (variant of 差点儿)"
+    ],
+    "6": [
+      "好不容易 (variant of 好容易)"
+    ],
+    "7": [
+      "茅台酒 (variant of 茅台)"
+    ]
+  },
+  "frCoverage": {
+    "1": 1,
+    "2": 0.987,
+    "3": 0.996,
+    "4": 0.995,
+    "5": 0.991,
+    "6": 0.982,
+    "7": 0.933
+  },
+  "charCounts": {
+    "1": 300,
+    "2": 300,
+    "3": 300,
+    "4": 300,
+    "5": 300,
+    "6": 300,
+    "7": 1200
+  },
+  "notes": [
+    "Level 7 = HSK 7–9 band (not split officially).",
+    "One entry per official item; alternative written forms listed on the official list (e.g. 爸 for 爸爸|爸, 〇 for 零|〇) are added as extra entries at the same level — see variantExtras.",
+    "Affix items (第, 们, 子, 家, 化 …) are listed as the bare affix; the official example words (第二, 朋友们 …) are not added.",
+    "Homographs listed twice on the official list (面1/面2) get ids with a '-2' suffix.",
+    "Glosses are shortened automatically (max 60 chars, up to 3 senses, sense chosen by part of speech); French glosses come only from the human-made CFDICT (no machine translation).",
+    "A small set of glosses (see MANUAL / MANUAL_ID in scripts/build-vocab.mjs) was hand-written by Hanlu for items missing from the dictionaries or where the dictionary's first sense does not match the sense taught at that level.",
+    "Items without an 'fr' field have no CFDICT entry and need translation."
+  ],
+  "generatedAt": "2026-09-23T20:21:57.443Z"
+}

@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  --paper: #f7f3ec;
+  --paper-2: #efe8dc;
+  --card: #fffdf9;
+  --ink: #16140f;
+  --ink-2: #4a4439;
+  --muted: #8a8174;
+  --line: #e2d9ca;
+  --seal: #c8372d;
+  --seal-2: #e0574a;
+  --jade: #1d7a63;
+  --gold: #b88a2a;
+  --sky: #2f6fb3;
+  --tone1: #d1422f;
+  --tone2: #d88a12;
+  --tone3: #2e8b57;
+  --tone4: #2f6fb3;
+  --tone5: #8a8174;
+  --shadow: 0 1px 2px rgb(22 20 15 / 0.04), 0 8px 24px -12px rgb(22 20 15 / 0.12);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111013;
+    --paper-2: #18171b;
+    --card: #1c1b20;
+    --ink: #f1ece2;
+    --ink-2: #c9c1b3;
+    --muted: #8f877b;
+    --line: #2c2a31;
+    --seal: #e5574a;
+    --seal-2: #ff7a6b;
+    --jade: #3fb896;
+    --gold: #e0b44f;
+    --sky: #6aa6e8;
+    --tone1: #ff6b58;
+    --tone2: #f5b041;
+    --tone3: #52c286;
+    --tone4: #6aa6e8;
+    --tone5: #9a9286;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 12px 32px -12px rgb(0 0 0 / 0.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111013;
+  --paper-2: #18171b;
+  --card: #1c1b20;
+  --ink: #f1ece2;
+  --ink-2: #c9c1b3;
+  --muted: #8f877b;
+  --line: #2c2a31;
+  --seal: #e5574a;
+  --seal-2: #ff7a6b;
+  --jade: #3fb896;
+  --gold: #e0b44f;
+  --sky: #6aa6e8;
+  --tone1: #ff6b58;
+  --tone2: #f5b041;
+  --tone3: #52c286;
+  --tone4: #6aa6e8;
+  --tone5: #9a9286;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 12px 32px -12px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-seal: var(--seal);
+  --color-seal-2: var(--seal-2);
+  --color-jade: var(--jade);
+  --color-gold: var(--gold);
+  --color-sky: var(--sky);
+  --font-sans: var(--font-inter), var(--font-noto-sans-sc), system-ui, sans-serif;
+  --font-display: var(--font-fraunces), var(--font-noto-serif-sc), Georgia, serif;
+  --font-han: var(--font-noto-serif-sc), "Songti SC", serif;
+  --font-hans: var(--font-noto-sans-sc), "PingFang SC", sans-serif;
+  --shadow-soft: var(--shadow);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: color-mix(in oklab, var(--seal) 25%, transparent);
+}
+
+/* rice-paper grain */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.45 0 0 0 0 0.35 0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+.t1 { color: var(--tone1); }
+.t2 { color: var(--tone2); }
+.t3 { color: var(--tone3); }
+.t4 { color: var(--tone4); }
+.t5 { color: var(--tone5); }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  padding: 0.7rem 1.3rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease, opacity 0.2s;
+  cursor: pointer;
+  user-select: none;
+}
+.btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn-primary {
+  background: var(--seal);
+  color: #fff;
+  box-shadow: 0 8px 20px -8px color-mix(in oklab, var(--seal) 70%, transparent);
+}
+.btn-primary:hover { background: var(--seal-2); }
+.btn-ghost {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+}
+.btn-ghost:hover { border-color: var(--ink-2); }
+.btn-ink { background: var(--ink); color: var(--paper); }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink-2);
+}
+
+.prose-hl p { margin: 0.6rem 0; line-height: 1.75; }
+.prose-hl strong { color: var(--ink); font-weight: 700; }
+
+.reveal {
+  animation: reveal 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.float { animation: float 6s ease-in-out infinite; }
+@keyframes pop {
+  0% { transform: scale(0.9); opacity: 0; }
+  60% { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1); }
+}
+.pop { animation: pop 0.35s ease-out both; }
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+.shake { animation: shake 0.3s ease-in-out; }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee { animation: marquee 60s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
+
+.flip { perspective: 1200px; }
+.flip-inner { transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.2, 1); transform-style: preserve-3d; }
+.flip-inner.flipped { transform: rotateY(180deg); }
+.flip-face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateY(180deg); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
