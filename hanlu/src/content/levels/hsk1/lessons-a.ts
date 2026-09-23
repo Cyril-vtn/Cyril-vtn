@@ -696,7 +696,7 @@ export const lessonsA: Lesson[] = [
         line("马克", "你太认真了！", "Nǐ tài rènzhēn le!", "Tu es vraiment sérieux !", "You're so diligent!"),
       ],
     },
-    vocab: ["每", "起床", "睡觉", "睡", "洗", "早饭", "午饭", "晚饭", "吃饭", "上班", "下班", "回家", "休息", "常常", "常", "有时候", "有时", "先", "再", "在", "正在", "正", "马上", "图书馆", "小时", "一会儿", "认真", "看", "电视"],
+    vocab: ["起床", "睡觉", "睡", "洗", "早饭", "午饭", "晚饭", "吃饭", "上班", "下班", "回家", "休息", "常常", "常", "有时候", "有时", "先", "再", "在", "正在", "正", "马上", "图书馆", "小时", "一会儿", "认真", "看", "电视"],
     grammar: ["hsk1-g20", "hsk1-g21", "hsk1-g22"],
     culture: {
       title: t("« Tu as mangé ? » et la sieste de midi", "“Have you eaten?” and the midday nap"),
