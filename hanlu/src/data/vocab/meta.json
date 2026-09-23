@@ -85,12 +85,16 @@
   },
   "frCoverage": {
     "1": 1,
-    "2": 0.987,
-    "3": 0.996,
-    "4": 0.995,
-    "5": 0.991,
-    "6": 0.982,
-    "7": 0.933
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1
+  },
+  "frSupplement": {
+    "source": "Hanlu editorial translations",
+    "count": 424
   },
   "charCounts": {
     "1": 300,
@@ -106,9 +110,9 @@
     "One entry per official item; alternative written forms listed on the official list (e.g. 爸 for 爸爸|爸, 〇 for 零|〇) are added as extra entries at the same level — see variantExtras.",
     "Affix items (第, 们, 子, 家, 化 …) are listed as the bare affix; the official example words (第二, 朋友们 …) are not added.",
     "Homographs listed twice on the official list (面1/面2) get ids with a '-2' suffix.",
-    "Glosses are shortened automatically (max 60 chars, up to 3 senses, sense chosen by part of speech); French glosses come only from the human-made CFDICT (no machine translation).",
+    "Glosses are shortened automatically (max 60 chars, up to 3 senses, sense chosen by part of speech); dictionary French glosses come only from the human-made CFDICT (no machine translation).",
     "A small set of glosses (see MANUAL / MANUAL_ID in scripts/build-vocab.mjs) was hand-written by Hanlu for items missing from the dictionaries or where the dictionary's first sense does not match the sense taught at that level.",
-    "Items without an 'fr' field have no CFDICT entry and need translation."
+    "French glosses for items missing from CFDICT are Hanlu's own translations (scripts/fr-supplement.json, see frSupplement); items without an 'fr' field still need translation."
   ],
-  "generatedAt": "2026-09-23T20:21:57.443Z"
+  "generatedAt": "2026-09-23T20:34:53.064Z"
 }

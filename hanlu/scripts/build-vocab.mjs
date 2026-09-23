@@ -516,6 +516,16 @@ async function main() {
     }
   }
 
+  // Hanlu's own French translations for entries CFDICT does not cover (scripts/fr-supplement.json: id -> fr)
+  const SUPP_PATH = path.join(__dirname, "fr-supplement.json");
+  const frSupp = fs.existsSync(SUPP_PATH) ? JSON.parse(fs.readFileSync(SUPP_PATH, "utf8")) : {};
+  let frSuppCount = 0;
+  for (const arr of Object.values(byLevel)) {
+    for (const e of arr) {
+      if (!e.fr && frSupp[e.id]) { e.fr = frSupp[e.id]; frSuppCount++; }
+    }
+  }
+
   // ---- sanity checks
   const hanRe = /^[\u3007\u3400-\u9fff]+$/;
   const toneRe = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/;
@@ -574,15 +584,16 @@ async function main() {
     officialReference: OFFICIAL,
     variantExtras,
     frCoverage,
+    frSupplement: { source: "Hanlu editorial translations", count: frSuppCount },
     charCounts,
     notes: [
       "Level 7 = HSK 7–9 band (not split officially).",
       "One entry per official item; alternative written forms listed on the official list (e.g. 爸 for 爸爸|爸, 〇 for 零|〇) are added as extra entries at the same level — see variantExtras.",
       "Affix items (第, 们, 子, 家, 化 …) are listed as the bare affix; the official example words (第二, 朋友们 …) are not added.",
       "Homographs listed twice on the official list (面1/面2) get ids with a '-2' suffix.",
-      "Glosses are shortened automatically (max 60 chars, up to 3 senses, sense chosen by part of speech); French glosses come only from the human-made CFDICT (no machine translation).",
+      "Glosses are shortened automatically (max 60 chars, up to 3 senses, sense chosen by part of speech); dictionary French glosses come only from the human-made CFDICT (no machine translation).",
       "A small set of glosses (see MANUAL / MANUAL_ID in scripts/build-vocab.mjs) was hand-written by Hanlu for items missing from the dictionaries or where the dictionary's first sense does not match the sense taught at that level.",
-      "Items without an 'fr' field have no CFDICT entry and need translation.",
+      "French glosses for items missing from CFDICT are Hanlu's own translations (scripts/fr-supplement.json, see frSupplement); items without an 'fr' field still need translation.",
     ],
     generatedAt: new Date().toISOString(),
   };

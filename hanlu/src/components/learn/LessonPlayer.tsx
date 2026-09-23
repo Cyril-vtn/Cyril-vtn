@@ -10,7 +10,7 @@ import { speak } from "@/lib/tts";
 import { newCardFor } from "@/lib/srs";
 import { href } from "@/lib/site";
 import ExerciseCard from "./ExerciseCard";
-import GrammarBody from "./GrammarBody";
+import GrammarBody, { RichText } from "./GrammarBody";
 import Speak from "../Speak";
 import { Hanzi, Pinyin } from "../Zh";
 import Icon from "../Icon";
@@ -187,6 +187,15 @@ export default function LessonPlayer({
               );
             })}
           </div>
+          {lesson.culture && (
+            <aside className="mt-8 overflow-hidden rounded-2xl border border-gold/30 bg-gold/5 p-5">
+              <p className="flex items-center gap-2 text-xs font-semibold tracking-widest text-gold uppercase">
+                <span className="font-han text-base">文化</span> {fr ? "Culture" : "Culture"}
+              </p>
+              <h3 className="mt-2 font-semibold">{l(lesson.culture.title, locale)}</h3>
+              <RichText text={l(lesson.culture.body, locale)} className="mt-1 text-sm text-ink-2" />
+            </aside>
+          )}
           <NextBar onNext={() => go("vocab")} label={t.next} />
         </section>
       )}

@@ -9,6 +9,7 @@ import { getUI } from "@/i18n/ui";
 import { FREE_LEVELS, href, levelLabel } from "@/lib/site";
 import { LessonBadge, LevelProgress } from "@/components/learn/LessonProgress";
 import Icon from "@/components/Icon";
+import { artSrc } from "@/content/art";
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => LEVELS.map((lv) => ({ locale, level: String(lv) })));
@@ -58,6 +59,8 @@ export default async function LevelPage({ params }: PageProps<"/[locale]/learn/[
             )}
           </div>
           <h1 className="mt-4 font-display text-5xl font-semibold tracking-tight sm:text-6xl">HSK {levelLabel(lv)}</h1>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={artSrc(`level-${lv}`)} alt="" className="ink-art mt-6 aspect-[21/9] w-full rounded-3xl object-cover" />
           <p className="mt-4 max-w-2xl text-lg text-ink-2">{l(facts.canDo, locale)}</p>
 
           {course ? (

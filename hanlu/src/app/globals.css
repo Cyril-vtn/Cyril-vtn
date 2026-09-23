@@ -213,3 +213,10 @@ body {
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { scrollbar-width: none; }
+
+/* ink-wash artwork: blend into paper in light mode, invert (keeping reds) in dark mode */
+.ink-art { mix-blend-mode: multiply; }
+:root[data-theme="dark"] .ink-art { mix-blend-mode: screen; filter: invert(0.92) hue-rotate(180deg); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .ink-art { mix-blend-mode: screen; filter: invert(0.92) hue-rotate(180deg); }
+}

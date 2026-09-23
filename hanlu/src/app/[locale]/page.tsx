@@ -8,6 +8,7 @@ import HeroCard from "@/components/home/HeroCard";
 import ToneDemo from "@/components/home/ToneDemo";
 import MiniQuiz from "@/components/home/MiniQuiz";
 import Icon, { type IconName } from "@/components/Icon";
+import { artSrc } from "@/content/art";
 
 export default async function Home({ params }: PageProps<"/[locale]">) {
   const locale = (await params).locale as Locale;
@@ -154,7 +155,9 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
           <h2 className="font-display text-4xl font-semibold tracking-tight sm:text-5xl">{t.pathTitle}</h2>
           <p className="mt-4 text-lg text-ink-2">{t.pathSubtitle}</p>
         </div>
-        <div className="relative mt-16">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={artSrc("journey")} alt="" loading="lazy" className="ink-art mt-12 aspect-[21/9] w-full rounded-3xl object-cover" />
+        <div className="relative mt-12">
           <div className="absolute top-9 right-8 left-8 hidden h-1 rounded-full bg-gradient-to-r from-jade via-gold to-seal lg:block" />
           <ol className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-7">
             {hskLevels.map((lv, i) => {

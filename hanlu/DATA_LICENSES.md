@@ -18,6 +18,8 @@ We did not use the LLM-generated French entries from CFDICT-Next (`llm_generated
 
 About 117 glosses were written by Hanlu itself (the `MANUAL` / `MANUAL_ID` tables in the build script). They cover items that have no dictionary entry and homographs where the dictionary's first sense is not the one taught at that level. They are released under the same terms as the rest of the dataset.
 
+Supplementary French glosses for the 424 items that have no CFDICT entry (`scripts/fr-supplement.json`, counted in `meta.json` as `frSupplement`) are original Hanlu translations, distributed under the same CC BY-SA 4.0 license as the rest of the file.
+
 The underlying HSK 3.0 list is a PRC government standard (版权所有：中华人民共和国教育部). The word list itself is a list of facts, and the MIT repos above claim copyright only on their transcription and cleanup.
 
 ## License of the generated files

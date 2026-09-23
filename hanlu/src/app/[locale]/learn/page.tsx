@@ -8,6 +8,7 @@ import { getUI } from "@/i18n/ui";
 import { FREE_LEVELS, href, levelLabel } from "@/lib/site";
 import { LevelProgress } from "@/components/learn/LessonProgress";
 import Icon from "@/components/Icon";
+import { artSrc } from "@/content/art";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/learn">): Promise<Metadata> {
   const fr = (await params).locale === "fr";
@@ -46,9 +47,8 @@ export default async function LearnPage({ params }: PageProps<"/[locale]/learn">
               href={href(locale, `/learn/${lv}`)}
               className="card group relative flex flex-col overflow-hidden p-6 transition hover:-translate-y-1"
             >
-              <span className="pointer-events-none absolute -top-6 -right-2 font-display text-[8rem] leading-none font-semibold text-ink/[0.04]">
-                {levelLabel(lv)}
-              </span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={artSrc(`level-${lv}`)} alt="" loading="lazy" className="ink-art -mx-6 -mt-6 mb-5 aspect-[3/2] w-[calc(100%+3rem)] max-w-none object-cover transition duration-700 group-hover:scale-[1.03]" />
               <div className="flex items-center gap-2">
                 <span className="chip">{band[facts.band]}</span>
                 {FREE_LEVELS.includes(lv) ? (

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prebuild": "node scripts/copy-data.mjs",
+    "prebuild": "node scripts/copy-data.mjs && node scripts/fetch-art.mjs",
     "predev": "node scripts/copy-data.mjs",
     "typecheck": "tsc --noEmit",
     "build:vocab": "node scripts/build-vocab.mjs"
